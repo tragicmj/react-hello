@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #333945;
+}
+
+h1 {
+  color: #fff;
+}
+.btnWrap {
+  display: flex;
+  width: max-content;
+  margin: 10px auto 0;
+}
+.button {
+  background: #26ae60;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  padding: 12px 18px;
+  font-size: 20px;
+  margin: 5px 5px 0;
+}
+.button:focus,
+.button:focus-within {
+  border: none;
+  outline: none;
+}
